@@ -19,7 +19,7 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                url: "https://github.com/vedavignesh/my_java_app.git"
+                url: "https://github.com/jenkins-docs/simple-java-maven-app.git"
             )
             }
         }
